@@ -1,0 +1,6 @@
+runtime: python310
+service: show-headers
+
+handlers:
+- url: /.*
+  script: auto
